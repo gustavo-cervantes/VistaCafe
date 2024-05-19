@@ -101,26 +101,29 @@ header .navbar {
     background: #fff;
     outline: none;
     border: none;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 400;
     margin-top: 38px;
     padding: 12px 30px;
     border-radius: 6px;
     cursor: pointer;
     transition: 0.2 ease;
+    font-family: 'Poppins';
 }
 
 .hero-section .content button:hover {
     color: #fff;
-    background: #ff6a00e9;
+    background: #e49d69;
 }
 
 #close-menu-btn {
     position: absolute;
-    right: 20px;
     top: 20px;
     cursor: pointer;
     display: none;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 #hamburguer-btn {
@@ -146,6 +149,7 @@ header .navbar {
 
     .navbar .logo {
         font-size: 1.7rem;
+        margin-top: 10px;
     }
 
     #hamburguer-btn, #close-menu-btn {
