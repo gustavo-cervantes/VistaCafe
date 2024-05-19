@@ -15,14 +15,13 @@ body {
     position: relative;
 }
 
-/* Sobreposição escura */
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -31,7 +30,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px;
-    z-index: 2; /* Garante que o cabeçalho fique acima da sobreposição */
+    z-index: 2;
 }
 
 header .navbar {
@@ -40,7 +39,7 @@ header .navbar {
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
-}   
+}
 
 .navbar .logo {
     color: #fff;
@@ -76,15 +75,6 @@ header .navbar {
     position: relative;
 }
 
-.hero-section .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
-}
-
 .hero-section .content {
     color: #fff;
     max-width: 1200px;
@@ -95,13 +85,13 @@ header .navbar {
 }
 
 .hero-section .content h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     max-width: 600px;
 }
 
 .hero-section .content p {
-    font-size: 1.2rem;
-    color: #ff6a00e9;
+    font-size: 2rem;
+    color: #e49d69;
     font-weight: 500;
     margin-top: 15px;
     max-width: 600px;
